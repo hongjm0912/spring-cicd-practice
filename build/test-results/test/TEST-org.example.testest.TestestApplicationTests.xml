@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.testest.TestestApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-02-25T14:52:08.584Z" hostname="BOOK-8UEKGKFOQ7" time="5.481">
+  <properties/>
+  <testcase name="contextLoads()" classname="org.example.testest.TestestApplicationTests" time="1.074"/>
+  <system-out><![CDATA[23:52:08.887 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.testest.TestestApplicationTests]: TestestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:52:09.060 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.testest.TestestApplication for test class org.example.testest.TestestApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.3)
+
+2026-02-25T23:52:09.959+09:00  INFO 47928 --- [    Test worker] o.e.testest.TestestApplicationTests      : Starting TestestApplicationTests using Java 17.0.16 with PID 47928 (started by user in C:\Users\user\Desktop\spring\testest)
+2026-02-25T23:52:09.968+09:00  INFO 47928 --- [    Test worker] o.e.testest.TestestApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-02-25T23:52:10.962+09:00  INFO 47928 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-25T23:52:10.963+09:00  INFO 47928 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-25T23:52:11.024+09:00  INFO 47928 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2026-02-25T23:52:12.966+09:00  INFO 47928 --- [    Test worker] o.e.testest.TestestApplicationTests      : Started TestestApplicationTests in 3.601 seconds (process running for 6.102)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
