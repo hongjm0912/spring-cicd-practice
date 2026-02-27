@@ -4,5 +4,16 @@ spring:
       host: localhost
       port: 6379
 
+  datasource:
+    url: jdbc:mysql://s25036-db.cvd3pbufn3fb.ap-northeast-1.rds.amazonaws.com:3306/s25036_db
+    username: admin
+    password: ${DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
 server:
   port: 8080
