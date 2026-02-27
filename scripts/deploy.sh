@@ -6,6 +6,9 @@ DEPLOY_LOG=$APP_DIR/deploy.log
 
 echo "Deploy 시작" > $DEPLOY_LOG
 
+# 환경변수 추가 👇
+export DB_PASSWORD=98RccX3xtc9sRSL
+
 # 기존 프로세스 종료
 CURRENT_PID=$(pgrep -f $JAR_NAME)
 
