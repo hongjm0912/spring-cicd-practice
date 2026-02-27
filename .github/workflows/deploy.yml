@@ -49,5 +49,5 @@ jobs:
         run: |
           aws deploy create-deployment \
             --application-name s25036-spring-app \
-            --deployment-group-name spring-deploy-group \
+            --deployment-group-name s25036-spring-deploy-group \
             --s3-location bucket=${{ secrets.S3_BUCKET }},key=deploy.zip,bundleType=zip
