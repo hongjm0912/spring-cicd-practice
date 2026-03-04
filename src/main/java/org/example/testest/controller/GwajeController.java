@@ -23,4 +23,9 @@ public class GwajeController {
     public String get() {
         return redisTemplate.opsForValue().get("hello");
     }
+
+    @GetMapping("/health")
+    public String health() {
+        return "ok";
+    }
 }
