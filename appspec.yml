@@ -7,6 +7,12 @@ files:
 
 hooks:
   AfterInstall:
+    # ✅ files 복사 후 /home/ec2-user/app 권한을 ec2-user로 맞춤 (중요)
+    - location: scripts/fix-permissions.sh
+      timeout: 60
+      runas: root
+
+    # 기존 deploy
     - location: scripts/deploy.sh
       timeout: 300
       runas: ec2-user
